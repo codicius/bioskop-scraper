@@ -7,7 +7,7 @@ apply plugin: 'kotlin'
 sourceCompatibility = 1.7
 
 buildscript {
-  ext.kotlin_version = '0.14.451'
+  ext.kotlin_version = '1.0.0-beta-1103'
   repositories {
     mavenCentral()
   }
@@ -36,5 +36,5 @@ dependencies {
 
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '2.8-rc-1'
+  gradleVersion = '2.8'
 }
